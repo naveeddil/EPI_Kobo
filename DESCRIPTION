@@ -1,0 +1,11 @@
+Package: EPIKobo
+Title: Routine EPI Supportive Supervision Dashboard (Afghanistan, live from KoboToolbox)
+Version: 0.8.0
+Description: Downloads the Routine EPI checklist export (EPI_BACKUP) from
+    KoboToolbox and shows the Health center, Session and Community
+    dashboards that used to live in Power BI, with a combined Home summary,
+    and two PowerPoint exports (dashboard deck and the integrated supervision deck).
+    Laid out like PAKAFG_Surveillance / AFP_ZeroDose.
+Imports: shiny, bslib, DT, plotly, httr2, readr, readxl, dplyr, tidyr, sf,
+    ggplot2, ragg, officer, mschart, flextable, writexl, commonmark, zip
+License: WHO internal use

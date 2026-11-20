@@ -1,0 +1,18 @@
+# Copy to .Renviron (same folder) to change defaults. Restart the app after editing.
+
+# Kobo export to download (default: EPI_BACKUP export setting, CSV)
+# KOBO_EXPORT_URL=https://eu.kobotoolbox.org/api/v2/assets/a5aJnksV6mK3Fgese2DPMy/export-settings/esKvGvapbsM4y4zohJ2AuRL/data.csv
+
+# Only needed if the form data stops being shared publicly: a Kobo API token
+# (Kobo > Account settings > Security > API key). Never commit this file.
+# KOBO_TOKEN=
+
+# Required to unlock the administrator-only Kobo refresh controls.
+# In Connect Cloud, configure this as a secret variable instead of deploying a .Renviron file.
+# ADMIN_PASSWORD=use-a-long-unique-password
+
+# Visits before this date are not shown (Power BI StartDate parameter)
+# EPI_START_DATE=2020-01-01   (was 2025-01-01 before the historic files were added)
+
+# Port used by RUN_WEB_APP.R
+# EPI_PORT=3842

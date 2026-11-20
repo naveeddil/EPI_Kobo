@@ -1,0 +1,8 @@
+.Renviron
+.Rhistory
+.RData
+.Rproj.user/
+app_data/
+archive/
+outputs/
+rsconnect/
